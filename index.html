@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Визитка Никиты</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Привет, я Никита</h1>
+  <nav>
+    <a href="#about">Обо мне</a>
+    <a href="#skills">Навыки</a>
+    <a href="#hobby">Хобби</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+</header>
+
+<main>
+
+  <section id="about">
+    <h2>Обо мне</h2>
+    <p>Меня зовут Никита, я начинающий фронтенд-разработчик. Люблю хоккей, мемы и писать сайты.</p>
+    <abbr title="Годный пацан теперь">GPT</abbr>
+  </section>
+
+  <section id="skills">
+    <h2>Навыки</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>Работа с таблицами</li>
+      <li>Формы и элементы управления</li>
+    </ul>
+
+    <p>Мой прогресс в HTML:</p>
+    <progress max="100" value="85">85%</progress>
+  </section>
+
+  <section id="hobby">
+    <h2>Мои увлечения</h2>
+
+    <table>
+      <caption>Хобби и оценки</caption>
+      <thead>
+        <tr>
+          <th>Название хобби</th>
+          <th>Сколько лет занимаюсь</th>
+          <th>Оценка по 12-бальной шкале</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Бегит</td>
+          <td>2 года</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>Хоккей</td>
+          <td>10 лет</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>Мемы</td>
+          <td>5 лет</td>
+          <td>12</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="contacts">
+    <h2>Связаться со мной</h2>
+
+    <form>
+      <label for="user_name">Как тебя зовут:</label>
+      <input type="text" id="user_name" name="user_name" placeholder="Напиши сюда">
+
+      <label for="message">Сообщение:</label>
+      <textarea id="message" placeholder="Твой текст"></textarea>
+
+      <input type="submit" value="Отправить">
+    </form>
+
+    <p>Email: <a href="mailto:nikita7436@gmail.com">nikita7436@gmail.com</a></p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 Никита Александрович</p>
+</footer>
+
+</body>
+</html>
